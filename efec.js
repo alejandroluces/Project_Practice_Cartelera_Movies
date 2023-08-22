@@ -609,3 +609,11 @@ const ToggleWatchLater = (movie = "", activate = true) => {
         modal.style.display = "none";
     }
 };
+
+// modificar el color a un elemento h1 clase "red" y agregar una nueva clase "green" y modificar el color a verde
+const newColorAndClass=new function(){
+    document.getElementsByClassName("red")[0].style.color = "green"
+    document.getElementsByClassName("red")[0].classList.add("green")
+
+}
+
